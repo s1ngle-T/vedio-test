@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/QT_Test">
+        <file>Resources/Lily_Screenshot_1589890879.png</file>
+        <file>Image/2_media_volume_24px_10385_easyicon.net.ico</file>
+        <file>Image/player_pause_16px_1222644_easyicon.net.ico</file>
+        <file>Image/player_play_pause_16px_1222646_easyicon.net.ico</file>
+        <file>Image/settings_16px_1223098_easyicon.net.ico</file>
+        <file>Image/white_folder_interface_symbol_of_outline_16px_1245386_easyicon.net.ico</file>
+        <file>Image/player-icons_16px_1137033_easyicon.net.ico</file>
+        <file>Image/player-icons_16px_1137008_easyicon.net.ico</file>
+        <file>Image/player-icons_16px_1137009_easyicon.net.ico</file>
+        <file>Image/player-icons_16px_1137006_easyicon.net.ico</file>
+        <file>Image/player-icons_16px_1137024_easyicon.net.ico</file>
+        <file>Image/player-icons_24px_1137006_easyicon.net.ico</file>
+        <file>Image/player-icons_24px_1137017_easyicon.net.ico</file>
+        <file>Image/a34fb2726fbf2cada295dec2ebd595f1.jpeg</file>
+        <file>Image/VCG211235685414.jpg</file>
+        <file>Image/VCG41678168875.jpg</file>
+        <file>Image/sound_16px_1140122_easyicon.net.ico</file>
+    </qresource>
+</RCC>

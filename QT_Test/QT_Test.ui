@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QT_TestClass</class>
+ <widget class="QMainWindow" name="QT_TestClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1593</width>
+    <height>876</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QT_Test</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#QT_TestClass{
+border-image: url(:/QT_Test/Image/VCG41678168875.jpg);
+
+	
+	
+	background-color: rgb(0, 0, 0);
+	
+
+}
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>0</y>
+      <width>381</width>
+      <height>771</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>文件列表</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>361</width>
+       <height>731</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QPushButton" name="OpenFileButton">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="QT_Test.qrc">
+            <normaloff>:/QT_Test/Image/white_folder_interface_symbol_of_outline_16px_1245386_easyicon.net.ico</normaloff>:/QT_Test/Image/white_folder_interface_symbol_of_outline_16px_1245386_easyicon.net.ico</iconset>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="OpenDocButton">
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="QT_Test.qrc">
+            <normaloff>:/QT_Test/Image/white_folder_interface_symbol_of_outline_16px_1245386_easyicon.net.ico</normaloff>:/QT_Test/Image/white_folder_interface_symbol_of_outline_16px_1245386_easyicon.net.ico</iconset>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QListView" name="FilelistView">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>700</y>
+      <width>1131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="PauseButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>41</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="QT_Test.qrc">
+       <normaloff>:/QT_Test/Image/player_pause_16px_1222644_easyicon.net.ico</normaloff>:/QT_Test/Image/player_pause_16px_1222644_easyicon.net.ico</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>81</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>00:00:00</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>30</y>
+       <width>16</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="text">
+      <string>/</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>30</y>
+       <width>91</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>00:00:00</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SetBtn">
+     <property name="geometry">
+      <rect>
+       <x>1030</x>
+       <y>20</y>
+       <width>41</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/QT_Test/Resources/Lily_Screenshot_1589883684.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="QT_Test.qrc">
+       <normaloff>:/QT_Test/Image/settings_16px_1223098_easyicon.net.ico</normaloff>:/QT_Test/Image/settings_16px_1223098_easyicon.net.ico</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QSlider" name="horizontalSlider">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>1091</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">ui.songtime-&gt;setStyleSheet(&quot;  \
+     QSlider::add-page:Horizontal\
+     {     \
+        background-color: rgb(87, 97, 106);\
+        height:4px;\
+     }\
+     QSlider::sub-page:Horizontal \
+    {\
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(231,80,229, 255), stop:1 rgba(7,208,255, 255));\
+        height:4px;\
+     }\
+    QSlider::groove:Horizontal \
+    {\
+        background:transparent;\
+        height:6px;\
+    }\
+    QSlider::handle:Horizontal \
+    {\
+        height: 30px;\
+        width:8px;\
+        border-image: url(:/images/ic_music_thumb.png);\
+        margin: -8 0px; \
+    }\
+    &quot;);</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>41</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="QT_Test.qrc">
+       <normaloff>:/QT_Test/Image/player_play_pause_16px_1222646_easyicon.net.ico</normaloff>:/QT_Test/Image/player_play_pause_16px_1222646_easyicon.net.ico</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>1080</x>
+       <y>20</y>
+       <width>41</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="QT_Test.qrc">
+       <normaloff>:/QT_Test/Image/player-icons_16px_1137009_easyicon.net.ico</normaloff>:/QT_Test/Image/player-icons_16px_1137009_easyicon.net.ico</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>41</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="QT_Test.qrc">
+       <normaloff>:/QT_Test/Image/player-icons_24px_1137006_easyicon.net.ico</normaloff>:/QT_Test/Image/player-icons_24px_1137006_easyicon.net.ico</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_speed">
+     <property name="geometry">
+      <rect>
+       <x>910</x>
+       <y>20</y>
+       <width>51</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>x1</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="setVoice">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>20</y>
+       <width>31</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="QT_Test.qrc">
+       <normaloff>:/QT_Test/Image/2_media_volume_24px_10385_easyicon.net.ico</normaloff>:/QT_Test/Image/2_media_volume_24px_10385_easyicon.net.ico</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetv" native="true">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>520</y>
+      <width>41</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QSlider" name="verticalSlider">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>22</width>
+       <height>160</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>50</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widgetset" native="true">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>490</y>
+      <width>271</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>241</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>亮度</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="horizontalSlider_2">
+          <property name="styleSheet">
+           <string notr="true">#QT_Test{
+border-image: url(:/new/prefix1/Image/1.jpg);
+}</string>
+          </property>
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>色相</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="horizontalSlider_3">
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>对比度</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="horizontalSlider_4">
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>饱和度</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="horizontalSlider_5">
+          <property name="minimum">
+           <number>-100</number>
+          </property>
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-20</y>
+      <width>1131</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>1131</width>
+       <height>691</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1593</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QT_Test.qrc"/>
+  <include location="Image.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>verticalSlider</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>QT_TestClass</receiver>
+   <slot>volume_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>830</x>
+     <y>720</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>942</x>
+     <y>771</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>FilelistView</sender>
+   <signal>doubleClicked(QModelIndex)</signal>
+   <receiver>QT_TestClass</receiver>
+   <slot>SelectFile(QModelIndex)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1241</x>
+     <y>313</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1129</x>
+     <y>359</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>QT_TestClass</receiver>
+   <slot>showAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1103</x>
+     <y>783</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1146</x>
+     <y>814</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>volume_valueChanged(int)</slot>
+  <slot>Setv()</slot>
+  <slot>SelectFile()</slot>
+  <slot>SliderMoved(int)</slot>
+  <slot>SelectFile(QModelIndex)</slot>
+  <slot>showAll()</slot>
+  <slot>on_horizontalSlider_sliderMoved(int)</slot>
+ </slots>
+</ui>
